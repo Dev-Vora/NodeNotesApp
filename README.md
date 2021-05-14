@@ -1,16 +1,25 @@
 # NodeNotesApp
-you can manage notes using this console app developed using nodejs
+You can manage notes using this console app developed using nodejs
 
- # run below command to run this app:
-
+ # Run below command to run this app:
+```bash
 node app "comand name"
+```
+commands: add, remove, list, read 
+# To add note
+ ```bash
+node app add --title "your title" --body "body part of your note"
+```
+# To remove note
 
-command name includes [add,remove,list,read]
-# to add note
- command: node app add --title "your title" --body "body part of your note  
-# to remove note
-  command: node app remove --title "your title"
-# to display all notes
- command: "node app list" 
-# to read specific note
-command: node app read --title "your title"  
+  ```bash
+node app remove --title "your title"
+```
+# To display all notes
+ ```bash
+node app list
+```
+# To read specific note
+ ```bash
+node app read --title "your title"  
+```
